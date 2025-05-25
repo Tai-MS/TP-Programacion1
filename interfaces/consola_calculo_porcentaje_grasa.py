@@ -7,7 +7,7 @@ grasa corporal.
 Si se le pasa como el valor 00 como argumento, se ejecuta un test.
 """
 def consola_calcular_porcentaje_grasa(test=True) -> float:
-    if test == 00:
+    if test == 911:
         print("\n######################################################")
         print("Test de consumo de porcentaje de grasa")
         test = calc.calcular_porcentaje_grasa(81, 175, 20, 1) 

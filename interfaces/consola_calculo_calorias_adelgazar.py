@@ -7,7 +7,7 @@ calorias que hay que consumir para adelgazar.
 Si se le pasa como el valor 00 como argumento, se ejecuta un test
 """
 def consola_consumo_calorias_recomendado_para_adelgazar(test=True):
-    if test== 00:
+    if test== 911:
         print("\n######################################################")
         print("Test de consumo de calorías recomendado para adelgazar")
         test = calc.consumo_calorias_recomendado_para_adelgazar(81, 175, 20, 1)

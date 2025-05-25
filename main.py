@@ -1,6 +1,9 @@
 import interfaces
 
-
+"""
+También se puede pasar el argumento 911, utilizado para ejecutar los test de
+cada calculo de forma rapida. No es presentado al usuario dado que no es relevante para él.
+"""
 def iniciar_programa():
     while True:
         print("######################################################")
@@ -14,7 +17,7 @@ def iniciar_programa():
 
         try:
             opcion = int(input("¿Qué opción querés elegir? Ingresá el número correspondiente: "))
-            if opcion in [1, 2, 3, 4, 5, 00]:
+            if opcion in [1, 2, 3, 4, 5, 911]:
                 return opcion
             else:
                 print("Opcion invalida. Elegi un numero entre 1 y 5.")
@@ -33,11 +36,11 @@ elif elegir == 4:
     print(interfaces.consola_calcular_calorias_en_actividad())
 elif elegir == 5:
     print(interfaces.consola_consumo_calorias_recomendado_para_adelgazar())
-elif elegir == 00:
-    print(interfaces.consola_calcular_IMC(00))
-    print(interfaces.consola_calcular_porcentaje_grasa(00))
-    print(interfaces.consola_calcular_calorias_en_reposo(00))
-    print(interfaces.consola_calcular_calorias_en_actividad(00))
-    print(interfaces.consola_consumo_calorias_recomendado_para_adelgazar(00))
+elif elegir == 911:
+    print(interfaces.consola_calcular_IMC(911))
+    print(interfaces.consola_calcular_porcentaje_grasa(911))
+    print(interfaces.consola_calcular_calorias_en_reposo(911))
+    print(interfaces.consola_calcular_calorias_en_actividad(911))
+    print(interfaces.consola_consumo_calorias_recomendado_para_adelgazar(911))
 
 

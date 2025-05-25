@@ -7,11 +7,11 @@ consumo de calorias estando en reposo.
 Si se le pasa como el valor 00 como argumento, se ejecuta un test
 """
 def consola_calcular_calorias_en_reposo(test=True):
-    if test == 00:
+    if test == 911:
         print("\n######################################################")
         print("Test de consumo de calorías en reposo")
-        test = calc.calcular_TMB(81, 175, 20, 1)
-        test2 = calc.calcular_TMB(58, 169, 21, 0)
+        test = calc.calcular_calorias_en_reposo(81, 175, 20, 1)
+        test2 = calc.calcular_calorias_en_reposo(58, 169, 21, 0)
         print(f"\nTest calorias en reposo: {test}")##1808.75
         print(f"Test2 calorias en reposo: {test2}")##1370.25
         return "\n[TEST FINALIZADO]"
@@ -21,7 +21,7 @@ def consola_calcular_calorias_en_reposo(test=True):
     edad = respusta[3]
     genero = respusta[4]
 
-    resultado = calc.calcular_TMB(peso, altura, edad, genero)
+    resultado = calc.calcular_calorias_en_reposo(peso, altura, edad, genero)
 
     
 

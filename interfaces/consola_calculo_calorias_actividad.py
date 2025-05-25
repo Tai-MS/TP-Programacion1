@@ -8,7 +8,7 @@ consumo de calorias estando en actividad.
 Si se le pasa como el valor 00 como argumento, se ejecuta un test
 """
 def consola_calcular_calorias_en_actividad(test=True):
-    if test == 00:
+    if test == 911:
         print("\n######################################################")
         print("Test de consumo de calorías en actividad")
         test = calc.calcular_calorias_en_actividad(81, 175, 20, 1, 3)##2803.56

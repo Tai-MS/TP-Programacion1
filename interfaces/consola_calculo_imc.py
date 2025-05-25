@@ -6,7 +6,7 @@ Muestra por consola los inputs que son requeridos para calcular el IMC.
 Si se le pasa como el valor 00 como argumento, se ejecuta un test
 """
 def consola_calcular_IMC(test=True):
-    if test == 00:
+    if test == 911:
         print("\n######################################################")
         print("Test de calculo de IMC")
         test = calc.calcular_IMC(81, 175)
