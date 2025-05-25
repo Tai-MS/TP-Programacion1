@@ -1,0 +1,6 @@
+from .consola_calculo_imc import consola_calcular_IMC
+from .consola_calculo_porcentaje_grasa import consola_calcular_porcentaje_grasa
+from .consola_calculo_calorias_reposo import consola_calcular_calorias_en_reposo
+from .consola_calculo_calorias_actividad import consola_calcular_calorias_en_actividad
+from .consola_calculo_calorias_adelgazar import consola_consumo_calorias_recomendado_para_adelgazar
+from .mensaje_consola import mensaje_consola
