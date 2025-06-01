@@ -119,6 +119,7 @@ El resultado que devuelve es un array que representa el rango de calorías recom
 """
 def consumo_calorias_recomendado_para_adelgazar(peso: float, altura: float, edad: int, valor_genero:float) -> float:
     tmb = calcular_calorias_en_reposo(peso, altura, edad, valor_genero)
+    
     resultado1 = round(tmb * 0.8, 2)  
     resultado2 = round(tmb * 0.85, 2)  
     margen = [resultado1, resultado2]

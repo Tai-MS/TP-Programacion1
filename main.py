@@ -6,14 +6,17 @@ cada calculo de forma rapida. No es presentado al usuario dado que no es relevan
 """
 def iniciar_programa():
     while True:
-        print("######################################################")
+        print("############################################################")
         print("\nOpciones:")
         print("1. Calcular tu IMC")
         print("2. Calcular tu porcentaje de grasa")
         print("3. Calcular tu consumo de calorías en reposo")
         print("4. Calcular tu consumo de calorías en actividad")
         print("5. Calcular las calorías recomendadas para adelgazar")
-        print("######################################################")
+        print("############################################################")
+        print("911. Ejecutar todos los cálculos de forma rápida (para test)")
+        print("############################################################")
+
 
         try:
             opcion = int(input("¿Qué opción querés elegir? Ingresá el número correspondiente: "))

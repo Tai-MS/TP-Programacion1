@@ -25,4 +25,4 @@ def consola_calcular_calorias_en_reposo(test=True):
 
     
 
-    return f"\nTu porcentaje de grasa corporal es: {resultado}."
+    return f"\nTu consumo de calorias en reposo es de: {resultado}."

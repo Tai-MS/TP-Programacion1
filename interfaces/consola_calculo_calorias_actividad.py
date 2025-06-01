@@ -25,6 +25,4 @@ def consola_calcular_calorias_en_actividad(test=True):
     
     resultado = calc.calcular_calorias_en_actividad(peso, altura, edad, genero, actividad)  
 
-
-
     return f"\nTu consumo de calorías en actividad es: {resultado}."
